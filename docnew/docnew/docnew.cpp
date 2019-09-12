@@ -59,7 +59,6 @@ int main(int argc, _TCHAR* argv[])
             if (VecSrc[i]==(*itDest))
             {
                itDest = vecDest.erase(itDest);
-			    itDest++;
                continue;
             }
             else
