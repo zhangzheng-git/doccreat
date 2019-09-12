@@ -1,0 +1,16 @@
+diff a/docnew/docnew/docnew.cpp b/docnew/docnew/docnew.cpp	(rejected hunks)
+@@ -64,13 +64,13 @@
+             else
+             {
+                itDest++;
+             }
+         }
+     }
+-    cout<<"Ψһ����:"<<vecDest.size()<<endl;
++    cout<<"Ψһ������:"<<vecDest.size()<<endl;
+     char bufer[1024]={0};
+     FILE*fp= fopen("2.txt","w");
+     for (int i=0;i<vecDest.size();i++)
+     {
+         cout<<vecDest[i]<<endl;
+         fwrite(vecDest[i].c_str(),1,vecDest[i].length(),fp);
