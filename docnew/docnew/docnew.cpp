@@ -67,7 +67,7 @@ int main(int argc, _TCHAR* argv[])
             }
         }
     }
-    cout<<"唯一数据:"<<vecDest.size()<<endl;
+    cout<<"唯一数据有:"<<vecDest.size()<<endl;
     char bufer[1024]={0};
     FILE*fp= fopen("2.txt","w");
     for (int i=0;i<vecDest.size();i++)
